@@ -1,0 +1,12 @@
+pynput==1.8.1
+requests==2.33.0
+
+# Windows only
+pywin32==311; sys_platform == "win32"
+psutil==7.2.1; sys_platform == "win32"
+
+# macOS only
+pyobjc-framework-Cocoa==12.1; sys_platform == "darwin"
+
+# Dev dependencies
+pytest==8.4.1
